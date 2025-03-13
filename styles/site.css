@@ -98,3 +98,18 @@
 	border: 2px solid black;
 	border-radius: 10px;
 }
+
+#simon {
+	text-align: center;
+	background-color: #011F3F;
+	height: 80vh;
+}
+
+#simon h1 {
+	margin-top: 0;
+	padding-top: 60px;
+}
+
+body {
+	height: 100vh;
+}
