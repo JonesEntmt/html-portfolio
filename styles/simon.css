@@ -6,14 +6,12 @@
 }
 
 .container-simon {
-  display: block;
-  width: 50%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-simon {
   margin: 25px;
-  display: inline-block;
   height: 200px;
   width: 200px;
   border: 10px solid black;

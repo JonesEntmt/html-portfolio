@@ -13,6 +13,11 @@ $("body").one("keypress", function () {
     setTimeout(nextSequence, 500);
 });
 
+$("body").one("click", function () {
+    $(".btn-simon").show();
+    setTimeout(nextSequence, 500);
+});
+
 $(".btn-simon").on("click", function (event) {
     let userChosenColour = (event.target.id).replace("-simon","")
     animatePress(userChosenColour);
